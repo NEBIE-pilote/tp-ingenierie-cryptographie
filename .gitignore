@@ -1,0 +1,22 @@
+# Aucune cle privee, aucun secret dans le depot
+*.key
+*.p12
+*.pfx
+*.csr
+
+# Bases et dossiers de travail des autorites (PKI du TP2)
+/racine/
+/inter/
+**/racine/
+**/inter/
+renouv_*/
+
+# Captures brutes et divers
+*.pcapng
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+ec1/
